@@ -1,0 +1,227 @@
+Deform ▸ Armature
+   Sprite-0001.png
+   Material.005
+   Material.006
+Attribute ▸ Store Named Attribute
+Geometry ▸ Read ▸ Named Attribute
+Utilities ▸ Vector ▸ Vector Curves
+Mesh ▸ Operations ▸ Mesh to Points
+Mesh ▸ Operations ▸ Mesh to Curve
+Input ▸ Constant ▸ Rotation
+Curve ▸ Operations ▸ Curve to Mesh
+Geometry ▸ Read ▸ ID
+Material ▸ Set Material
+   Material
+Group ▸ Toon Shader
+Grease Pencil ▸ Empty
+  Area
+Geometry ▸ Operations ▸ Separate Geometry
+Output ▸ Group Output
+Mesh ▸ Operations ▸ Scale Elements
+Geometry ▸ Read ▸ Normal
+Mesh ▸ Operations ▸ Split Edges
+Capture Attribute ▸ Geometry
+Vector Curves ▸ Fac
+Input ▸ Scene ▸ Object Info
+Mesh ▸ Primitives ▸ Grid
+Utilities ▸ Matrix ▸ Project Point
+Geometry ▸ Sample ▸ Geometry Proximity
+Texture ▸ Checker Texture
+Utilities ▸ Math ▸ Float Curve
+   HEad
+Deform ▸ Cast
+Point ▸ Distribute Points on Faces
+Geometry ▸ Operations ▸ Duplicate Elements
+Point ▸ Points to Curves
+Instances ▸ Instance on Points
+Mesh ▸ Primitives ▸ Cube
+Group ▸ Group Input
+Group ▸ Group Output
+Simulation ▸ Simulation
+Point ▸ Distribute Points in Volume
+Mesh ▸ Primitives ▸ Mesh Line
+Mesh ▸ Primitives ▸ Mesh Circle
+Mesh ▸ Operations ▸ Mesh to Volume
+  Geometry Nodes
+Geometry ▸ Join Geometry
+  Geometry Nodes.002
+Geometry ▸ Operations ▸ Delete Geometry
+Utilities ▸ Random Value
+Input ▸ Constant ▸ Value
+Utilities ▸ Vector ▸ Vector Math
+Utilities ▸ Color ▸ Color Ramp
+Attribute ▸ Capture Attribute
+Curve ▸ Operations ▸ Merge Layers
+Utilities ▸ Rotation ▸ Align Rotation to Vector
+Vector Math ▸ Add
+Utilities ▸ Vector ▸ Combine XYZ
+Utilities ▸ Vector ▸ Separate XYZ
+Input ▸ Constant ▸ Vector
+Geometry ▸ Read ▸ Position
+Geometry ▸ Operations ▸ Transform Geometry
+Geometry ▸ Write ▸ Set Position
+  Fire
+  Geometry Nodes.004
+Input ▸ Scene ▸ Scene Time
+Point ▸ Points to Volume
+Utilities ▸ Math ▸ Math
+Converter ▸ Clamp
+   Hair
+ 0 Glasses
+   Hoodie
+Input ▸ Geometry
+   Skin
+Deform ▸ Displace
+ 0 Texture
+Group
+   Texture
+Generate ▸ Decimate
+Deform ▸ Smooth
+Deform ▸ Simple Deform
+Texture ▸ Brick Texture
+Vector ▸ Vector Transform
+Grease Pencil ▸ Scene Line Art
+  LineStyle
+   Untitled.001
+ 0 Material.003
+   Material.002
+Add ▸ Adjustment Layer
+  Camera
+  Scene
+  Scene.001
+Converter ▸ Combine Color
+Map Range ▸ From Max
+   test image
+Shader ▸ Emission
+Input ▸ UV Map
+Group ▸ FireUV
+Input ▸ Particle Info
+Layout ▸ Frame
+Converter ▸ Wavelength
+Converter ▸ Combine XYZ
+Vector Rotate ▸ Vector
+Texture ▸ Voronoi Texture
+Texture ▸ Multiple Images
+Input ▸ RGB
+Vector ▸ Vector Rotate
+Texture ▸ Wave Texture
+Input ▸ Value
+Converter ▸ Vector Math
+Converter ▸ Separate XYZ
+Texture ▸ Magic Texture
+Converter ▸ Map Range
+   Consepts.png
+Vector ▸ Mapping
+Input ▸ Camera Data
+Input ▸ Texture Coordinate
+Color ▸ Hue/Saturation/Value
+   sunrise.exr
+   Untitled
+Generate ▸ Skin
+Converter ▸ Shader to RGB
+Converter ▸ Separate Color
+ 0 Material.002
+ 0 Material.001
+Color ▸ Invert Color
+   Pommel
+   Black
+Input ▸ Layer Weight
+Converter ▸ Mix
+Texture ▸ Environment Texture
+Volume ▸ Empty
+Empty ▸ Arrows
+Texture ▸ Noise Texture
+Converter ▸ Math
+Converter ▸ Color Ramp
+Layer.001
+Layer
+   SPommel.png
+   WPommel 
+  Controlls
+Arm Ball
+Arm Lenght
+FK.IK.controller
+F1.AB
+F1.Curl
+F2.FL
+F3.FL
+F4.FL
+F1.AB.001
+F2.AB.001
+F2.AB
+F3.AB
+F4.AB
+F1.AB.L
+F1.FL.L
+F1.FL.R
+F2.FL.R
+F3.FL.R
+F4.FL.R
+F4.AB.L
+F3.AB.R
+F4.AB.R
+F2.AB.R
+F1.AB.R
+  Text
+Armature ▸ Rigify Meta-Rigs ▸ Human
+DEF.UpperBody2.001
+  Armatu.001
+S.UpperArm
+S.ForeArm
+S.StraightFingers
+S.Hand
+S.Thumb
+S.ForeArm.R
+S.Hand.R
+S.Fingers.R
+S.Thumb.R
+S.Hips
+S.Thigh.L
+S.Thigh.R
+S.LowerChest
+S.Neck
+S.Head
+S.UpperChest
+S.UpperArm.L
+S.UpperArm.R
+S.Calf.L
+S.Foot.L
+S.Calf.R
+S.Foot.R
+Add ▸ Text
+  BonePT
+  Arms - Default.001
+  BonePT.001
+DEF.Finger.R.07
+  Armature.002
+  Mannequin V0.002
+S.Hips.001
+S.Leg1.L.001
+S.Leg1.R.001
+  BoneShape
+
+Color ▸ Mix Color
+Generate ▸ Boolean
+Generate ▸ Solidify
+Shader ▸ Metallic BSDF
+Shader ▸ Glass BSDF
+Group ▸ ClooGlassShader
+Shader ▸ Glossy BSDF
+Group ▸ ClooDifuseShader
+Shader ▸ Diffuse BSDF
+   Material.001
+   Metal-Dark
+   Tire_Rubber
+Converter ▸ Blackbody
+Vector ▸ Normal
+Mix Shader ▸ Fac
+Texture ▸ Image Texture
+Shader ▸ Mix Shader
+Shader ▸ Transparent BSDF
+   tire.png
+Generate ▸ Mirror
+   Glass
+   Out
+   Metal-Light
+Add ▸ Camera
+Texture ▸ Gradient Texture

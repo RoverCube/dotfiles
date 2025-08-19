@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyboard version="1">
+    <commands>
+        <key command="ShowGrid" shortcut="Shift+G" removed="true"/>
+        <key command="ShowPixelGrid" shortcut="Alt+Shift+G" removed="true"/>
+        <key command="AddColor" shortcut="F">
+            <param name="source" value="fg"/>
+        </key>
+    </commands>
+    <tools>
+        <key tool="contour" shortcut="D" removed="true"/>
+    </tools>
+    <quicktools/>
+    <actions/>
+</keyboard>

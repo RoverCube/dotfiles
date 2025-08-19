@@ -1,0 +1,152 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces",
+        "group/status",
+    ],
+    "modules-center": [
+        "custom/playprevious",
+        "group/playing",
+        "custom/playnext",
+    ],
+    "modules-right": [
+        "tray",
+        "network",
+        "pulseaudio",
+        "custom/calc",
+        "custom/swww",
+        "custom/power"
+    ],
+    "hyprland/workspaces": {
+        "persistent-workspaces": {
+            "*": 5,
+        }
+    },
+    "group/status": {
+        "orientation": "inherit",
+        "modules": [
+        "cpu",
+        "custom/divider",
+        "memory"
+        ]
+    },
+    "group/playing": {
+        "orientation": "inherit",
+        "modules": [
+            "custom/playerinfo",
+            "custom/divider",
+            "clock",
+            "custom/divider",
+            "custom/wayves"
+        ],
+    },
+
+	"custom/divider": {	
+        "format":                       " | ",
+        "tooltip":                      false
+	},
+
+    "tray": {
+        "icon-size":                    21,
+        "spacing":                      10,
+        "icons": {
+            "blueman":                  "bluetooth",
+            "TelegramDesktop":          "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png",
+            "discord":                  "",
+        }
+    },
+
+    "clock": {
+        "tooltip-format":               "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt":                   "{:%Y-%m-%d}"
+    },
+
+    "cpu": {
+        "format":                       "{usage}%  ",
+        "tooltip":                      false
+    },
+    "memory": {
+        "format":                       "{}%  "
+    },
+
+    "network": {
+        "interface":                    "wlp2s0",
+        "format":                       "",
+        "format-wifi":                  "󰖩",
+        "format-ethernet":              "󰈀",
+        "format-disconnected":          "󰈂",
+        "tooltip":                      true,
+        "tooltip-format-wifi":          "Connected WIFI ({signalStrength}%)",
+        "tooltip-format-ethernet":      "Connected Ethernet",
+        "tooltip-format-disconnected":  "Disconnected",
+        "max-length":                   50
+    },
+
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} | {format_source}",
+        "format-bluetooth": "{volume}% {icon}  {format_source}",
+        "format-bluetooth-muted": "   | {icon}  {format_source}",
+        "format-muted": "   | {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "󰋋",
+            "hands-free": " ",
+            "headset": "󰋎 ",
+            "phone": " ",
+            "portable": " ",
+            "car": " ",
+            "default": [" ", " ", " "]
+        },
+        "on-click": "pavucontrol",
+        "tooltip": true,
+        "tooltip-format": "open audio config",
+    },
+
+    "custom/wayves": {
+        "format":                       "{}",
+        "exec":                         "python ~/Downloads/Software/wayves/wayves.py -o cava -i cava -a cava"
+    },
+
+    "custom/playerinfo": {
+        "format":                       "{}",
+        "exec":                         "/home/rovercube/.config/waybar/playerinfo.sh",
+        "escape":                       true,
+        "interval":                     1,
+        "tooltip":                      true,
+        "on-click":                     "playerctl play-pause",
+    },
+    "custom/playnext": {
+        "format":                       "󰒭",
+        "on-click":                     "playerctl next",
+        "tooltip-format":               "play next",
+    },
+    "custom/playprevious": {
+        "format":                       "󰒮",
+        "on-click":                     "playerctl previous",
+        "tooltip-format":               "play previous",
+    },
+
+    "custom/calc":  {
+        "format":                       "",
+        "on-click":                     "rofi -show calc -modi calc -no-show-match -no-sort -theme Arc-Dark",
+        "tooltip-format":               "calculator",
+    },
+    "custom/swww":  {
+        "format":                       "󰸉",
+        "on-click":                     "/home/rovercube/Scripts/swww_selector.sh",
+        "tooltip-format":               "swww selector",
+    },
+    "custom/power": {
+        "format" :                      "󰐥 ",
+		"on-click":                     "rofi -show power-menu -modi power-menu:rofi-power-menu -theme RoverShutDown",
+        "tooltip-format":               "power menu",
+    }
+}
