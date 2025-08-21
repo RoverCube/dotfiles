@@ -17,26 +17,27 @@ program_list=(
     [3]="nano"
 )
 program_activated=(
-    [0]="x"
+    [0]="X"
     [1]="0"
     [2]="0"
-    [3]="x"
+    [3]="X"
 )
 
 
-# 
+# $1 Thing
 if [[ $1 == "" ]] then
-echo -e "Specify your .config directory!
+echo -e "Specify your \e[4mHOME\e[24m directory!
     by ./install_script.sh \e[4mDIRECTORY\e[24m\b
     examples:
-        - ./install_script.sh .config
-        - ./install_script.sh ./
-        - ./install_script.sh /home/\e[4mYOURUSER\e[24m/.config"
+        - ./install_script.sh /home/\e[4mYOURUSER\e[24m
+        - ./install_script.sh \e[4m~\e[24m"
 exit
 fi
 
+clear
+
 # Warning
-echo -e "directory chosen $1 make sure that is your .config\n
+echo -e "directory chosen $1\n
 \e[4mPLEASE MAKE SURE TO READ EVERYTHING!\e[24m
 please proceed with caution ;]"
 
@@ -71,10 +72,11 @@ app_selection() {
     fi
     for x in $(seq 0 $p_list_size ); do
         if [[ $x == $selection ]]; then
-            if [[ {program_activated[$x]} == "x" ]]; then
+            if [[ {program_activated[$x]} == X ]]; then
                 program_activated[$x]="0"
             else
-                program_activated[$x]="x"
+		echo #x
+                program_activated[$x]="X"
             fi
         fi
     done
