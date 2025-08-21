@@ -19,8 +19,9 @@
         "tray",
         "network",
         "pulseaudio",
-        "custom/calc",
-        "custom/swww",
+        "custom/scripts",
+        /*"custom/swww",
+        "custom/calc",*/
         "custom/power"
     ],
     "hyprland/workspaces": {
@@ -134,7 +135,7 @@
         "tooltip-format":               "play previous",
     },
 
-    "custom/calc":  {
+    /*"custom/calc":  {
         "format":                       "",
         "on-click":                     "rofi -show calc -modi calc -no-show-match -no-sort -theme Arc-Dark",
         "tooltip-format":               "calculator",
@@ -142,6 +143,12 @@
     "custom/swww":  {
         "format":                       "󰸉",
         "on-click":                     "/home/rovercube/Scripts/swww_selector.sh",
+        "tooltip-format":               "swww selector",
+    },
+    */
+    "custom/scripts": {
+        "format":                       "󰞷",
+        "on-click":                     "/home/rovercube/.config/scripts/script-selector.sh",
         "tooltip-format":               "swww selector",
     },
     "custom/power": {
