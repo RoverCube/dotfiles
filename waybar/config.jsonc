@@ -112,7 +112,7 @@
 
     "custom/wayves": {
         "format":                       "{}",
-        "exec":                         "python ~/Downloads/Software/wayves/wayves.py -o cava -i cava -a cava"
+        "exec":                         "python ~/.config/waybar/wayves/wayves.py -o cava -i cava -a cava"
     },
 
     "custom/playerinfo": {
