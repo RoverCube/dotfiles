@@ -1,20 +1,15 @@
-/home/rovercube/Desktop/pezzy bike.blend1
+/home/rovercube/untitled.blend1
+/home/rovercube/keys.blend
+/home/rovercube/untitled.blend
+/home/rovercube/keys2.blend
+/mnt/rogerio/Elastic.blend
 /home/rovercube/Desktop/pezzy bike.blend
 /home/rovercube/Desktop/bike.blend
-/home/rovercube/Desktop/Movie Stuff/untitled.blend11
-/home/rovercube/Desktop/Movie Stuff/untitled.blend1
-/home/rovercube/Desktop/pose ref.blend
-/home/rovercube/Desktop/videos minecraft create.blend
-/home/rovercube/Desktop/mixamo_rig blender 4/mixamo_rig/lib/cs.blend
-/run/media/rovercube/Win-Hdd/New folder/Models (1)/Blender Stuff/untitled.blend1
-/run/media/rovercube/Win-Hdd/arch/untitled (1).blend
-/run/media/rovercube/Dados/Desktop/Models/Kurt Cocane Droid/untitled - Copia.blend
-/run/media/rovercube/Win-Hdd/New folder/untitled.blend1
-/run/media/rovercube/Win-Hdd/Clooles Chaos/FrogHouse/Old Stuff/Clooles/Frog House Mayhem/Frog House Mayhem/EDroid/Failed/untitled.blend1
-/run/media/rovercube/Win-Hdd/Clooles Chaos/Clooles/Cloo/Assests/3D Models/untitled.blend1
-/run/media/rovercube/Dados/Desktop/Models/Kurt Cocane Droid/untitled.blend1
-/run/media/rovercube/Dados/Desktop/Models/Blender Stuff/untitled.blend1
-/run/media/rovercube/Dados/Desktop/FrogHouse/Old Stuff/Clooles/Frog House Mayhem/Frog House Mayhem/EDroid/Failed/untitled.blend1
-/run/media/rovercube/Win-Hdd/arch/untitled.blend
-/run/media/rovercube/Win-Hdd/New folder/untitled.blend
-/run/media/rovercube/Win-Hdd/New folder/Models (1)/Blender Stuff/untitled.blend
+/mnt/rogerio/bxace video.blend
+/home/rovercube/Desktop/0.blend
+/home/rovercube/FvF - 3d Characters/Cat/Character_Cat.blend
+/home/rovercube/FvF - 3d Characters/Woodpecker/Character_Woodpecker.blend
+/mnt/win-hdd/Clooles Chaos/Puffer 3D arch/blend.blend
+/home/rovercube/Desktop/Burning Soul/rover.blend
+/home/rovercube/zero.blend
+/mnt/rogerio/Elastic.blend1

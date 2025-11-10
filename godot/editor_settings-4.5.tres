@@ -1,0 +1,152 @@
+[gd_resource type="EditorSettings" load_steps=14 format=3]
+
+[sub_resource type="InputEventKey" id="InputEventKey_k3nm8"]
+device = -1
+command_or_control_autoremap = true
+keycode = 79
+
+[sub_resource type="Shortcut" id="Shortcut_y2113"]
+events = [SubResource("InputEventKey_k3nm8")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_potkb"]
+device = -1
+alt_pressed = true
+keycode = 4194311
+
+[sub_resource type="Shortcut" id="Shortcut_8y1vh"]
+events = [SubResource("InputEventKey_potkb")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_pmqtp"]
+device = -1
+keycode = 4194325
+
+[sub_resource type="Shortcut" id="Shortcut_p34ns"]
+events = [SubResource("InputEventKey_pmqtp")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_ooh4d"]
+device = -1
+command_or_control_autoremap = true
+keycode = 85
+
+[sub_resource type="Shortcut" id="Shortcut_bk5xb"]
+events = [SubResource("InputEventKey_ooh4d")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_4otqw"]
+device = -1
+shift_pressed = true
+ctrl_pressed = true
+keycode = 4194306
+
+[sub_resource type="Shortcut" id="Shortcut_qg0er"]
+events = [SubResource("InputEventKey_4otqw")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_dqrbs"]
+device = -1
+ctrl_pressed = true
+keycode = 4194306
+
+[sub_resource type="Shortcut" id="Shortcut_xyhdt"]
+events = [SubResource("InputEventKey_dqrbs")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_73jmi"]
+keycode = 4194326
+
+[resource]
+interface/editor/editor_language = "en"
+interface/editor/editor_screen = -2
+interface/editor/main_font = "/home/rovercube/Downloads/Software/Godot/JetBrainsMono-Regular.ttf"
+interface/editor/main_font_bold = "/home/rovercube/Downloads/Software/Godot/JetBrainsMono-ExtraBold.ttf"
+interface/editor/code_font = "/home/rovercube/Downloads/Software/Godot/JetBrainsMono-Regular.ttf"
+interface/editor/single_window_mode = true
+interface/editor/save_on_focus_loss = true
+interface/editor/import_resources_when_unfocused = true
+interface/theme/preset = "Custom"
+interface/theme/icon_and_font_color = 2
+interface/theme/base_color = Color(0.0627451, 0.0627451, 0.0627451, 1)
+interface/theme/contrast = 0.3
+filesystem/import/blender/blender_path = "/home/rovercube/Downloads/Software/blender 4.3.2/blender"
+text_editor/theme/highlighting/symbol_color = Color(0.67, 0.79, 1, 1)
+text_editor/theme/highlighting/keyword_color = Color(1, 0.44, 0.52, 1)
+text_editor/theme/highlighting/control_flow_keyword_color = Color(1, 0.55, 0.8, 1)
+text_editor/theme/highlighting/base_type_color = Color(0.26, 1, 0.76, 1)
+text_editor/theme/highlighting/engine_type_color = Color(0.56, 1, 0.86, 1)
+text_editor/theme/highlighting/user_type_color = Color(0.78, 1, 0.93, 1)
+text_editor/theme/highlighting/comment_color = Color(0.7656863, 0.7656863, 0.7656863, 0.5)
+text_editor/theme/highlighting/doc_comment_color = Color(0.6, 0.7, 0.8, 0.8)
+text_editor/theme/highlighting/string_color = Color(1, 0.93, 0.63, 1)
+text_editor/theme/highlighting/background_color = Color(0.034509804, 0.034509804, 0.034509804, 1)
+text_editor/theme/highlighting/completion_background_color = Color(0.0627451, 0.0627451, 0.0627451, 1)
+text_editor/theme/highlighting/completion_selected_color = Color(1, 1, 1, 0.07)
+text_editor/theme/highlighting/completion_existing_color = Color(1, 1, 1, 0.14)
+text_editor/theme/highlighting/completion_font_color = Color(0.7656863, 0.7656863, 0.7656863, 1)
+text_editor/theme/highlighting/text_color = Color(0.7656863, 0.7656863, 0.7656863, 1)
+text_editor/theme/highlighting/line_number_color = Color(0.7656863, 0.7656863, 0.7656863, 0.5)
+text_editor/theme/highlighting/safe_line_number_color = Color(0.7656863, 0.91882354, 0.7656863, 0.75)
+text_editor/theme/highlighting/caret_color = Color(1, 1, 1, 1)
+text_editor/theme/highlighting/selection_color = Color(0.41, 0.61, 0.91, 0.4)
+text_editor/theme/highlighting/brace_mismatch_color = Color(1, 0.47, 0.42, 1)
+text_editor/theme/highlighting/current_line_color = Color(1, 1, 1, 0.07)
+text_editor/theme/highlighting/line_length_guideline_color = Color(0.0627451, 0.0627451, 0.0627451, 1)
+text_editor/theme/highlighting/word_highlighted_color = Color(1, 1, 1, 0.07)
+text_editor/theme/highlighting/number_color = Color(0.63, 1, 0.88, 1)
+text_editor/theme/highlighting/function_color = Color(0.34, 0.7, 1, 1)
+text_editor/theme/highlighting/member_variable_color = Color(0.736, 0.88, 1, 1)
+text_editor/theme/highlighting/mark_color = Color(1, 0.47, 0.42, 0.3)
+text_editor/theme/highlighting/warning_color = Color(1, 0.87, 0.4, 0.15)
+text_editor/theme/highlighting/breakpoint_color = Color(1, 0.47, 0.42, 1)
+text_editor/theme/highlighting/code_folding_color = Color(1, 1, 1, 0.27)
+text_editor/theme/highlighting/search_result_color = Color(1, 1, 1, 0.07)
+text_editor/external/exec_path = "/home/rovercube/Downloads/Software/code/share/code/code"
+text_editor/external/exec_flags = "{project} --goto {file}:{line}:{col}"
+editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
+editors/animation/default_animation_step = 0.033333335
+network/connection/network_mode = 1
+interface/touchscreen/increase_scrollbar_touch_area = false
+export/android/debug_keystore = "/home/rovercube/.local/share/godot/keystores/debug.keystore"
+export/android/debug_keystore_pass = "android"
+export/android/java_sdk_path = "/usr/lib64/jvm/java-17-openjdk"
+export/android/android_sdk_path = "/home/rovercube/.android-sdk"
+export/macos/rcodesign = ""
+export/web/http_port = 8060
+export/web/tls_key = ""
+export/web/tls_certificate = ""
+export/windows/rcedit = ""
+export/windows/osslsigncode = ""
+export/windows/wine = ""
+_editor_settings_advanced_mode = true
+_project_settings_advanced_mode = true
+_export_template_download_directory = "/home/rovercube/.cache/godot"
+_default_feature_profile = "a"
+_script_setup_templates_dictionary = {
+"Resource": "0ObjectEmpty"
+}
+_use_favorites_root_selection = false
+_script_setup_use_script_templates = false
+aseprite/general/command_path = "/home/rovercube/Downloads/Software/LibreSprite/LibreSprite-x86_64.AppImage"
+plugin/script_ide/outline_position_right = true
+plugin/script_ide/hide_private_members = false
+plugin/script_ide/script_list_visible = false
+plugin/script_ide/auto_navigate_in_filesystem_dock = true
+plugin/script_ide/script_tabs_visible = true
+plugin/script_ide/script_tab_position_top = true
+plugin/script_ide/outline_order = PackedStringArray("Engine Callbacks", "Functions", "Signals", "Exported Properties", "Properties", "Constants", "Classes")
+plugin/script_ide/open_outline_popup = SubResource("Shortcut_y2113")
+plugin/script_ide/open_scripts_popup = SubResource("Shortcut_bk5xb")
+plugin/script_ide/open_quick_search_popup = SubResource("Shortcut_p34ns")
+plugin/script_ide/open_override_popup = SubResource("Shortcut_8y1vh")
+plugin/script_ide/tab_cycle_forward = SubResource("Shortcut_xyhdt")
+plugin/script_ide/tab_cycle_backward = SubResource("Shortcut_qg0er")
+plugin/script_ide/engine_callbacks = true
+plugin/script_ide/functions = true
+plugin/script_ide/signals = true
+plugin/script_ide/exported_properties = true
+plugin/script_ide/properties = true
+plugin/script_ide/classes = true
+plugin/script_ide/constants = true
+shortcuts = [{
+"name": "spatial_editor/viewport_zoom_modifier_1",
+"shortcuts": [SubResource("InputEventKey_73jmi")]
+}, {
+"name": "spatial_editor/viewport_zoom_modifier_2",
+"shortcuts": []
+}]

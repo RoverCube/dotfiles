@@ -15,4 +15,8 @@
 
 //@theme "/usr/share/rofi/themes/RoverAppMenu.rasi"
 
-@theme "/usr/share/rofi/themes/RoverDefalt.rasi"
+//@theme "/usr/share/rofi/themes/RoverDefalt.rasi"
+
+//@theme "/home/rovercube/.config/rofi/defalt.rasi"
+
+@theme "/home/rovercube/.config/rofi/themes/defalt.rasi"

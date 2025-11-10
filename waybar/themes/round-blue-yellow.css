@@ -1,0 +1,90 @@
+@define-color background #192A66;
+@define-color background-alt #5E6993;
+@define-color foreground #fafad1;
+@define-color focused #fafa50;
+@define-color urgent #fa5050;
+
+* {
+    font-family:         "otf-font-awesome", "FontAwesome";
+    font-size:           10px;
+    font-weight:         bold;
+}
+
+window#waybar {
+    background:          transparent;
+}
+.modules-right {
+    background:          @background;
+    margin:              0px 2px 0px  2px;
+    padding:             0px 5px 0px 15px;
+    border-radius:       15px;
+}
+.modules-center {
+    background:          @background;
+    margin:              0px  2px 0px 2px;
+    padding:             0px 15px 0px 15px;
+    border-radius:       15px;
+}
+.modules-left {
+    background:          @background;
+    margin:              0px  2px 0px  2px;
+    padding:             0px 15px 0px 5px;
+    border-radius:       15px;
+}
+
+#custom-playprevious,
+#custom-playnext {
+color:               @foreground;
+font-size:           16px;
+padding:             1px 5px 1px 5px;
+margin:              2px;
+}
+#network,
+#custom-swww,
+#custom-calc,
+#custom-scripts,
+#custom-power {
+font-size:           14px;
+padding:             1px 4px 1px 4px;
+margin:              2px;
+color:               @foreground;
+}
+#pulseaudio,
+#custom-pipewire,
+#tray,
+#clock,
+#playing,
+#workspaces,
+#status {
+padding:             1px 2px 1px 2px;
+margin:              2px;
+color:               @foreground;
+}
+
+
+button:hover {
+    background-color:    @background-alt;
+    color:               @foreground;
+}
+#workspaces button.active {
+    border: 1px solid    @foreground;
+    padding:             0px 2px 0px 2px;
+    color:               @foreground;
+    border-radius:       15px;
+}
+#workspaces button {
+    background-color:    transparent;
+    padding:             0px 3px 0px 3px;
+    margin:              0px 1px 0px 1px;
+    color:               @foreground;
+}
+#workspaces button.empty {
+    color:               @background-alt;
+}
+#workspaces button.focused {
+    color:               @foreground;
+}
+#workspaces button.urgent {
+    color:               @foreground;
+    background-color:    @urgent;
+}

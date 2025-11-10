@@ -1,12 +1,13 @@
 [Bookmarks]
 [Recent]
-/home/rovercube/Desktop/clockorganizer/
-/home/rovercube/Desktop/PezzyBike/
-/home/rovercube/Imagens/Capturas de tela/
+!Home
+/home/rovercube/
+/home/rovercube/Downloads/JetBrainsMono-2.304/fonts/ttf/
+/home/rovercube/Downloads/
+/home/rovercube/Imagens/Capturas de tela/hyprshot/
+/mnt/rogerio/
+/mnt/rogerio/CU/Character/EDroid/
 /home/rovercube/Desktop/
-/home/rovercube/Downloads/aprilia-rs660/source/
+/tmp/
 /home/rovercube/Desktop/Burning Soul/
-/home/rovercube/Desktop/Burning Soul/Prototypes/prototype-1/player/sword/
-/home/rovercube/Desktop/Burning Soul/Prototypes/prototype-1/
-/home/rovercube/Desktop/Burning Soul/Consepts/New Folder/New Folder/
-/home/rovercube/Desktop/Burning Soul/Consepts/New Folder/
+/home/rovercube/Downloads/knight-artorias-and-great-grey-wolf-sif/source/Artorias/
